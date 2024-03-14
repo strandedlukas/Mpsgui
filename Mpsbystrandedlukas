@@ -9,8 +9,8 @@ local function createNotification()
         Title = "Checking...",
         Text = "you nigger thanks for buying my sexy script also ludaz is my side hoe go follow him",
         Duration = 15,
-        Button1 = "Yes, we already know",
-        Button2 = "omg really?!",
+        Button1 = "Yes",
+        Button2 = "Yes",
         Callback = handleButtonClick,
     })
 end
@@ -46,18 +46,37 @@ removeGui()
 
 createNotification()
 
-local whitelist = {
-    ["Lukasmaleni12"] = true,
-    ["ExampleUser2"] = true,
-    -- Add more whitelisted usernames as needed
-}
+local player = game.Players.LocalPlayer
 
-game.Players.PlayerAdded:Connect(function(player)
-    local playerName = player.Name
-    if not whitelist[playerName] then
-        player:Kick("You are not whitelisted.")
-    end
-end)
+if player.Name == "luvxher7" then
+    print("Whitelist")
+    elseif player.Name == "Username" then
+    print("Whitelisted")
+    elseif player.Name == "userNAME" then
+    print("Whitelisted")
+     elseif player.Name == "USERname" then
+    print("Whitelisted")
+     elseif player.Name == "userName" then
+    print("Whitelisted")
+     elseif player.Name == "USERNAME" then
+    print("Whitelisted")
+     elseif player.Name == "Username" then
+    print("Whitelisted")
+     elseif player.Name == "UserNaMe" then
+    print("Whitelisted")
+     elseif player.Name == "name of the player" then
+    print("Whitelisted")
+     elseif player.Name == "name of the player" then
+    print("Whitelisted")
+     elseif player.Name == "name of the player" then
+    print("Whitelisted")
+     elseif player.Name == "name of the player" then
+    print("Whitelisted")
+
+    else
+
+    player:Kick("noob, you arent whitelisted,dm for whitelist")
+end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
@@ -109,6 +128,9 @@ ImportantTab:AddToggle({
 	Callback = function(Value)
 		--// Cache
 
+	  ImportantTab:AddParagraph("Anti kick","please be careful while using the anti kick, it kight not work, were not 100% sure. try to avoid using this script in mps or such games because they most likely have an strong anti cheat level.")
+
+	  
 local getgenv, getnamecallmethod, hookmetamethod, newcclosure, checkcaller, stringlower = getgenv, getnamecallmethod, hookmetamethod, newcclosure, checkcaller, string.lower
 
 --// Loaded check
