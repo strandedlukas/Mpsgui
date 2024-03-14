@@ -7,10 +7,10 @@ end
 local function createNotification()
     local notification = game.StarterGui:SetCore("SendNotification", {
         Title = "Checking...",
-        Text = "Are you on the whitelist?",
+        Text = "you nigger thanks for buying my sexy script also ludaz is my side hoe go follow him",
         Duration = 15,
-        Button1 = "Yes",
-        Button2 = "Yes",
+        Button1 = "Yes, we already know",
+        Button2 = "omg really?!",
         Callback = handleButtonClick,
     })
 end
